@@ -11,8 +11,7 @@ body {
 
 .sideBar {
   background-color: #0c0c0c;
-  position: fixed;
-  overflow: hidden;
+  height: 100vh;
 }
 
 .sideBar .logo p {
