@@ -1,0 +1,81 @@
+body {
+  font-size: 15px;
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #bbbbbb;
+  background-color: #000000;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.sideBar {
+  background-color: #0c0c0c;
+  height: 100vh;
+}
+
+.sideBar .logo p {
+  letter-spacing: 8px;
+}
+
+.sideBar ul {
+  list-style: none;
+}
+
+.sideBar ul li {
+  padding: 5px;
+}
+
+.sideBar ul li a {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+.contentBar {
+  display: inline-block;
+}
+
+.contentBar #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+.contentBar #home {
+  background-color: #0c0c0c;
+  min-height: 100vh;
+  margin: 5px;
+}
+
+.contentBar #about {
+  background-color: #0c0c0c;
+  min-height: 300px;
+  margin: 5px;
+}
+
+.contentBar #services {
+  background-color: #0c0c0c;
+  min-height: 200px;
+  margin: 5px;
+}
+
+.contentBar #news {
+  background-color: #0c0c0c;
+  min-height: 250px;
+  margin: 5px;
+}
+
+.contentBar #portfolio {
+  background-color: #0c0c0c;
+  min-height: 200px;
+  margin: 5px;
+}
+/*# sourceMappingURL=main.css.map */

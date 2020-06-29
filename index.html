@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-md-3 col-lg-2 d-md-block position-fixed sidebar sideBar collapse"
+        >
+          <section class="logo text-center">
+            <a href="#banner"
+              ><img class="img-fluid" src="/images/logo (1).png" alt="Logo"
+            /></a>
+            <p>ABDUL HAY</p>
+          </section>
+          <section class="sidebar_menu">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfollio">Portfollio</a>
+              </li>
+              <li>
+                <a href="#news">News</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer">Footer Items</section>
+        </div>
+        <div class="col-md-9 ml-sm-auto col-lg-10 px-md-4 contentBar">
+          <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-arrow-up-circle"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M4.646 8.354a.5.5 0 0 0 .708 0L8 5.707l2.646 2.647a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M8 11.5a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .5.5z"
+              />
+            </svg>
+          </button>
+          <section id="home" class="text-center">
+            <div class="banner">
+              <h4>Hello</h4>
+              <h1>I'M ABDUL HAY</h1>
+            </div>
+          </section>
+          <section id="about" class="">About</section>
+          <section id="services">Services</section>
+          <section id="news">News</section>
+          <section id="portfolio">Portfolio</section>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
